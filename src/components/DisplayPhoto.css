@@ -1,0 +1,46 @@
+.photo-list-wrapper{
+	
+
+	margin:20px 0px;
+	display: flex;
+	padding:30px 10px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:20px;
+}
+
+.photo-list{
+	
+	width:100%;
+	padding:15px;
+	background-color:wheat;
+	height:400px;
+	border-radius: 7px;
+	display: flex;
+	justify-content: center;
+    margin:0;
+	flex-direction: column;
+	overflow: hidden;
+	width:150px;
+flex-basis: 20%;
+}
+
+
+
+.photo-list >img{
+	width:100%;
+	border-radius: 4px;
+}
+
+.photo-title{
+	font-family: verdana,sans-serif;
+	font-size: 19px;
+}
+
+.photo-des{
+	font-family: monospace,sans-serif;
+    height: 200px;
+    overflow-y: auto;
+}
+
